@@ -6,6 +6,5 @@ void main(List<String> args) {
   final d = b.difference(a);
   final result = c.union(d);
   print(result);
-  final newResult = result.reduce((value, element) => value + element);
-  print(newResult);
+  print(result.reduce((value, element) => value + element));
 }
